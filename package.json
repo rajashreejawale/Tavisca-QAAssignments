@@ -1,0 +1,21 @@
+{
+  "name": "TS-Jest-Prj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "factorial-of-n.js",
+  "dependencies": {
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "jest-html-reporters": "^2.0.4",
+    "jest-stare": "^2.2.0"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

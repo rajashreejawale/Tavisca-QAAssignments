@@ -1,0 +1,72 @@
+{
+  "bail": 0,
+  "changedFilesWithAncestor": false,
+  "collectCoverage": true,
+  "collectCoverageFrom": [],
+  "coverageDirectory": "D:\\Projects\\Tavisca\\TS-Jest-Prj\\coverage",
+  "coverageProvider": "babel",
+  "coverageReporters": [
+    "json",
+    "text",
+    "lcov",
+    "clover"
+  ],
+  "detectLeaks": false,
+  "detectOpenHandles": false,
+  "errorOnDeprecated": false,
+  "expand": false,
+  "findRelatedTests": false,
+  "forceExit": false,
+  "json": false,
+  "lastCommit": false,
+  "listTests": false,
+  "logHeapUsage": false,
+  "maxConcurrency": 5,
+  "maxWorkers": 7,
+  "noStackTrace": false,
+  "nonFlagArgs": [],
+  "notify": false,
+  "notifyMode": "failure-change",
+  "onlyChanged": false,
+  "onlyFailures": false,
+  "passWithNoTests": false,
+  "projects": [],
+  "reporters": [
+    [
+      "default",
+      {}
+    ],
+    [
+      "D:\\Projects\\Tavisca\\TS-Jest-Prj\\node_modules\\jest-html-reporters\\index.js",
+      {
+        "filename": "reports.html",
+        "pageTitle": "JS & TS Test Execution Report",
+        "hideIcon": true
+      }
+    ],
+    [
+      "D:\\Projects\\Tavisca\\TS-Jest-Prj\\node_modules\\jest-stare\\lib\\index.js",
+      {
+        "resultDir": "results/jest-stare/",
+        "reportTitle": "jest-stare!",
+        "additionalResultsProcessors": [],
+        "coverageLink": "./coverage/lcov-report/index.html",
+        "jestStareConfigJson": "jest-stare.json",
+        "jestGlobalConfigJson": "globalStuff.json",
+        "resultHtml": "index.html",
+        "resultJson": "jest-results.json"
+      }
+    ]
+  ],
+  "rootDir": "D:\\Projects\\Tavisca\\TS-Jest-Prj",
+  "runTestsByPath": false,
+  "skipFilter": false,
+  "testFailureExitCode": 1,
+  "testPathPattern": "",
+  "testSequencer": "D:\\Projects\\Tavisca\\TS-Jest-Prj\\node_modules\\@jest\\test-sequencer\\build\\index.js",
+  "updateSnapshot": "new",
+  "useStderr": false,
+  "watch": false,
+  "watchAll": false,
+  "watchman": true
+}
